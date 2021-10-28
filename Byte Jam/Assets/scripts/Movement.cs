@@ -26,12 +26,7 @@ public class Movement : MonoBehaviour
         speed = 20;
 
 
-        if ((Input.GetKey(KeyCode.Space)) && !isJumping ) 
-        {
-            Body.AddForce(new Vector2(Body.velocity.x, Space));
-            isJumping = true;
         
-        }
     
     }
 
