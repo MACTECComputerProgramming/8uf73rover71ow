@@ -5,7 +5,9 @@ public class Movement : MonoBehaviour
 {[SerializeField] private float speed;
     
     private Rigidbody2D Body;
-
+    private bool isJumping;
+    public float Space;
+    
     private void Awake()
     {
         Body = GetComponent<Rigidbody2D>();
@@ -21,7 +23,11 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
             Body.velocity = new Vector2(Body.velocity.x, speed);
 
-        speed = 10;
+        speed = 20;
+
+
+        
+    
     }
 
 }
