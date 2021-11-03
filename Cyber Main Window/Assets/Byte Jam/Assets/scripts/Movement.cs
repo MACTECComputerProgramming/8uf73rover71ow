@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
             Body.velocity = new Vector2(Body.velocity.x, speed);
 
-        speed = 10;
+        speed = 15;
     }
 
 }
