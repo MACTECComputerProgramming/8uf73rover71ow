@@ -4,18 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class DeathMenu : MonoBehaviour
 {
-     void Start()
-    {
-        gameObject.SetActive(false);
-    }
-     void Update()
-    {
+    if (PlayerDeath == true ) 
+	{
         
-    }
-    public void ToggleEndMenu()
-    {
-         
-    }
+	}
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
 }

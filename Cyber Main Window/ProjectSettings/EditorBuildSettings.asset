@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/asfasdf.unity
     guid: fec3b9e931c6ec84d99d9c4beb1bd403
+  - enabled: 1
+    path: Assets/Byte Jam/Assets/Scenes/GameOver.unity
+    guid: c4164488308e45445ac8abb1861c1ff2
   m_configObjects: {}
