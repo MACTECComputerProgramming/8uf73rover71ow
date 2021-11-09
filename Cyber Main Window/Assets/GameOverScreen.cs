@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class GameOverScreen : MonoBehaviour
 {
-      
-    ////Button Code
-   // public void RestartButton()
-   // {
-   //     SceneManager.LoadScene("Game");
+    private void PlayerDied() {
+        LevelManager.instance.GameOver();
+    }
+    private void OnGUI()
+    {
+        float t = Time
 
-   // }
+    }
 
-   // public void ExitButton()
-   // {
-   //     SceneManager.LoadScene("MainMenu");
 
-   // }
 }
