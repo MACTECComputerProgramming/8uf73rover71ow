@@ -20,6 +20,7 @@ public class PlayerDeath : MonoBehaviour
         {
 
             Destroy(collision.gameObject);
+            //FindObjectOfType<GameManager>().EndGame();
 
         }
     }
